@@ -1,7 +1,11 @@
-var myNum = 10;
+var ilikeMyMum = true;
 
-if (myNum > 10){
+if (ilikeMyMum){
 
- document.write("myNum is greater than 10")
+ document.write(" I like my mum")
+
+}else {
+
+ document.write("I like my dad")
+
 }
-
