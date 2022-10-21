@@ -1,2 +1,7 @@
-alert("hello, world!");
-alert("alert, suck!") 
+var myNum = 10;
+
+if (myNum > 10){
+
+ document.write("myNum is greater than 10")
+}
+
