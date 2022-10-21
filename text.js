@@ -1,10 +1,21 @@
-var myAge = 16;
-if (myAge < 18 || myAge > 30) {
+for (i = 0; i < 10; i++) {
 
- document.write("you can come, you cool dude");
 
-}else {
+ if (i == 5 || i == 3) {
 
-document.write("you aint coming!");
+  continue;
+
+ }
+
+console.log(i);
+
+if (i == 7) {
+
+ break;
+ 
+}
+
 
 }
+
+console.log("I have broken out of the length")
